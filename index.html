@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My personal page</title>
+    <link rel="stylesheet" href="/src/styles.css">
+    <!-- <link rel="stylesheet" href="/src/style2.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="shortcut icon" href="/src/favicon-32x32.png" type="image/x-icon">
+</head>
+
+<body >
+    <header class="fixed-top z-0">
+        <nav class="navbar navbar-expand-lg bg-body-primary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Home</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#presentation">{About Me}</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                {Work}
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#work_experience">{Work Experience}</a></li>
+                                <li><a class="dropdown-item" href="#portfolio">{Personal Projects}</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                {Career}
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#education">{Education}</a></li>
+                                <li><a class="dropdown-item" href="#languages">{Languages}</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#technologies">{Technologies}</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container py-5 my-5 ">
+    <section class="row presentation hstack rounded-3 flex-lg-row" id="presentation">
+        <!-- <div class="photo col-sm-12 order-sm-1 col-md-6 p-md-3"> -->
+        <!-- <div class="photo p-4 col-lg-5 ">  -->
+        <!-- <div class="photo p-4 p-md-4 m-e-4 col-lg-6 "> -->
+        <div class="photo p-4 p-md-4 m-e-4 col-lg-6 d-flex align-items-center justify-content-center">
+            <img src="/src/pres.jpg" class="rounded-3 ">
+        </div>
+
+        <!-- <div class="aboutme col-sm-12 order-sm-2 ps-md-5 col-md-6 "> -->
+        <!-- <div class="aboutme p-4 col-lg-6 "> -->
+        <div class="aboutme p-4 col-lg-6 d-flex flex-column align-items-center justify-content-center">
+        <!-- <div class="aboutme p-4 col-lg-6 d-flex flex-column align-items-center"> -->
+            <!-- <div class="d-flex flex-column align-items-center justify-content-center"> -->
+                <div>
+            <h4>Hello there! I am</h4>
+            <h1>Natalia Belén Barrón</h1>
+            <h4>JUNIOR FULLSTACK DEVELOPER</h4>
+            <p class="description">I am passionate about technology and programming and <br>I want
+                to have the opportunity of develop my career. </p>
+            <ul class="basic_info">
+                <li> <i>
+                        <svg width="32px" height="32px" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round">
+                            </g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path
+                                    d="M2 12C2 8.22876 2 6.34315 3.17157 5.17157C4.34315 4 6.22876 4 10 4H14C17.7712 4 19.6569 4 20.8284 5.17157C22 6.34315 22 8.22876 22 12V14C22 17.7712 22 19.6569 20.8284 20.8284C19.6569 22 17.7712 22 14 22H10C6.22876 22 4.34315 22 3.17157 20.8284C2 19.6569 2 17.7712 2 14V12Z"
+                                    stroke="#766dff" stroke-width="1.5"></path>
+                                <path d="M7 4V2.5" stroke="#766dff" stroke-width="1.5" stroke-linecap="round">
+                                </path>
+                                <path d="M17 4V2.5" stroke="#766dff" stroke-width="1.5" stroke-linecap="round">
+                                </path>
+                                <path d="M2.5 9H21.5" stroke="#766dff" stroke-width="1.5" stroke-linecap="round">
+                                </path>
+                                <path
+                                    d="M18 17C18 17.5523 17.5523 18 17 18C16.4477 18 16 17.5523 16 17C16 16.4477 16.4477 16 17 16C17.5523 16 18 16.4477 18 17Z"
+                                    fill="#766dff"></path>
+                                <path
+                                    d="M18 13C18 13.5523 17.5523 14 17 14C16.4477 14 16 13.5523 16 13C16 12.4477 16.4477 12 17 12C17.5523 12 18 12.4477 18 13Z"
+                                    fill="#766dff"></path>
+                                <path
+                                    d="M13 17C13 17.5523 12.5523 18 12 18C11.4477 18 11 17.5523 11 17C11 16.4477 11.4477 16 12 16C12.5523 16 13 16.4477 13 17Z"
+                                    fill="#766dff"></path>
+                                <path
+                                    d="M13 13C13 13.5523 12.5523 14 12 14C11.4477 14 11 13.5523 11 13C11 12.4477 11.4477 12 12 12C12.5523 12 13 12.4477 13 13Z"
+                                    fill="#766dff"></path>
+                                <path
+                                    d="M8 17C8 17.5523 7.55228 18 7 18C6.44772 18 6 17.5523 6 17C6 16.4477 6.44772 16 7 16C7.55228 16 8 16.4477 8 17Z"
+                                    fill="#766dff"></path>
+                                <path
+                                    d="M8 13C8 13.5523 7.55228 14 7 14C6.44772 14 6 13.5523 6 13C6 12.4477 6.44772 12 7 12C7.55228 12 8 12.4477 8 13Z"
+                                    fill="#766dff"></path>
+                            </g>
+                        </svg>
+                    </i>
+                    <p class="data">23rd October, 1993</p>
+                </li>
+                <li> <i>
+                        <svg width="32px" height="32px" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg" >
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round">
+                            </g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path
+                                    d="M21 5.5C21 14.0604 14.0604 21 5.5 21C5.11378 21 4.73086 20.9859 4.35172 20.9581C3.91662 20.9262 3.69906 20.9103 3.50103 20.7963C3.33701 20.7019 3.18146 20.5345 3.09925 20.364C3 20.1582 3 19.9181 3 19.438V16.6207C3 16.2169 3 16.015 3.06645 15.842C3.12515 15.6891 3.22049 15.553 3.3441 15.4456C3.48403 15.324 3.67376 15.255 4.05321 15.117L7.26005 13.9509C7.70153 13.7904 7.92227 13.7101 8.1317 13.7237C8.31637 13.7357 8.49408 13.7988 8.64506 13.9058C8.81628 14.0271 8.93713 14.2285 9.17882 14.6314L10 16C12.6499 14.7999 14.7981 12.6489 16 10L14.6314 9.17882C14.2285 8.93713 14.0271 8.81628 13.9058 8.64506C13.7988 8.49408 13.7357 8.31637 13.7237 8.1317C13.7101 7.92227 13.7904 7.70153 13.9509 7.26005L13.9509 7.26005L15.117 4.05321C15.255 3.67376 15.324 3.48403 15.4456 3.3441C15.553 3.22049 15.6891 3.12515 15.842 3.06645C16.015 3 16.2169 3 16.6207 3H19.438C19.9181 3 20.1582 3 20.364 3.09925C20.5345 3.18146 20.7019 3.33701 20.7963 3.50103C20.9103 3.69907 20.9262 3.91662 20.9581 4.35173C20.9859 4.73086 21 5.11378 21 5.5Z"
+                                    stroke="#766dff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                </path>
+                            </g>
+                        </svg>
+                    </i>
+                    <p class="data">
+                        +54 9 11 40978545
+                    </p>
+                </li>
+                <li> <i>
+                        <svg width="32px" height="32px" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round">
+                            </g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path
+                                    d="M21 8L17.4392 9.97822C15.454 11.0811 14.4614 11.6326 13.4102 11.8488C12.4798 12.0401 11.5202 12.0401 10.5898 11.8488C9.53864 11.6326 8.54603 11.0811 6.5608 9.97822L3 8M6.2 19H17.8C18.9201 19 19.4802 19 19.908 18.782C20.2843 18.5903 20.5903 18.2843 20.782 17.908C21 17.4802 21 16.9201 21 15.8V8.2C21 7.0799 21 6.51984 20.782 6.09202C20.5903 5.71569 20.2843 5.40973 19.908 5.21799C19.4802 5 18.9201 5 17.8 5H6.2C5.0799 5 4.51984 5 4.09202 5.21799C3.71569 5.40973 3.40973 5.71569 3.21799 6.09202C3 6.51984 3 7.07989 3 8.2V15.8C3 16.9201 3 17.4802 3.21799 17.908C3.40973 18.2843 3.71569 18.5903 4.09202 18.782C4.51984 19 5.07989 19 6.2 19Z"
+                                    stroke="#766dff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                </path>
+                            </g>
+                        </svg>
+                    </i>
+                    <p class="data">
+                        nbbarron12@gmail.com
+                    </p>
+                </li>
+                <li> <i>
+                        <svg width="32px" height="32px" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round">
+                            </g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path
+                                    d="M5 9.77746V16.2C5 17.8802 5 18.7203 5.32698 19.362C5.6146 19.9265 6.07354 20.3854 6.63803 20.673C7.27976 21 8.11984 21 9.8 21H14.2C15.8802 21 16.7202 21 17.362 20.673C17.9265 20.3854 18.3854 19.9265 18.673 19.362C19 18.7203 19 17.8802 19 16.2V5.00002M21 12L15.5668 5.96399C14.3311 4.59122 13.7133 3.90484 12.9856 3.65144C12.3466 3.42888 11.651 3.42893 11.0119 3.65159C10.2843 3.90509 9.66661 4.59157 8.43114 5.96452L3 12M14 21V15H10V21"
+                                    stroke="#766dff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                </path>
+                            </g>
+                        </svg>
+                    </i>
+                    <p class="data">
+                        Buenos Aires City, Argentina
+                    </p>
+                </li>
+            </ul>
+        </div>
+        </div> <!-- cierra .aboutme-->
+    </section>
+</div><!-- cierra div .container-->
+
+<div class="container ">
+    <section class="download my-5" id="download">
+        <h4>To download my resume click in the link:
+        </h4>
+    </section>
+</div>
+
+<!-- <div class="container ms-0 ps-0 min-vw-100"> -->
+<div class="container px-0 ">
+    <section class="work_experience my-5 py-5 d-flex justify-content-center " id="work_experience">
+        <div class="cont_work_exp">
+        <h3>{Work Experience}</h3>
+        <br>
+        <h4>Software Developer</h4>
+        <ul>
+            <li>SQL DataBase Administration.</li>
+            <li>Programming in LN4 Language</li>
+            <li>Development of Data Models, presentations and <br>
+                menu item in Meta4 application for database queries</li>
+        </ul>
+        <p>GCBA, Jul 2022 - Present</p>
+
+        <h4>Budget Assistant</h4>
+        <ul>
+            <li>Analysis of jurisdictional budgets</li>
+            <li>Preparation of budget adjustments</li>
+            <li>Dossier Report</li>
+        </ul>
+        <p>GCBA, Nov 2012 - Jun 2022</p>
+    </div>
+    </section>
+</div>
+
+<div class="container   ">
+    <section class="portfolio my-5 py-5 d-flex justify-content-center " id="portfolio">
+        <div class="cont_portfolio">
+        <h3>{Personal Projects}</h3>
+        <br>
+        <h4>Management System for Mechanical Workshop | JAVA, MySql</h4>
+        <ul>
+            <li>Management of Clients, Cars and Services of a mechanical workshop</li>
+            <li>Using CRUD in a Database</li>
+            <li><a href="https://github.com/Natycavs12/taller-mecanico" target="_blank">• https://github.com/Natycavs12/taller-mecanico</a></li>
+        </ul>
+
+        <h4>Autoescuela</h4>
+        <p>(In process)</p>
+        <h4>Gimnasio</h4>
+        <p>(In Process)</p>
+    </div>
+    </section>
+</div>
+
+<div class="container px-0 cont_education">
+    <section class="education my-5 py-5 ps-5 d-flex justify-content-center " id="education">
+        <div>
+        <h3>{Education}</h3>
+        <br>
+        <h4>INSPT</h4>
+        <p>Technique in Computer Science </p>
+            <ul>
+                <li>Mar 2015 - Present</li>
+            </ul>
+        
+        <h4>UTN - FRBA</h4>
+        <p>Information Systems Engineering</p>
+        <ul>
+            <li>Mar 2012 - Dec 2014</li>
+        </ul>
+    </div>
+    </section>
+</div>
+
+<div class="container cont_lang">
+    <section class="languages my-5 py-5 d-flex justify-content-center " id="languages">
+        <div>
+        <h3>{Languages}</h3>
+        <br>
+
+        <h4>ENGLISH </h4>
+        <p>EF Standard English Test | C1 - Advanced</p>
+
+        <h4>ITALIAN </h4>
+        <p>CUI | Mar 2017 - Dec 2019 | MCER: B1</p>
+    </div>
+    </section>
+</div>
+
+<!-- <div class="container ps-0 min-vw-100 m-auto"> -->
+<div class="container px-0 cont_tech">
+    <section class="technologies mt-5 py-5 d-flex justify-content-center " id="technologies">
+        <div>
+        <h3>{Technologies}</h3>
+        <br>
+        <ul>
+            <li> Languages: Java, Python, SQL, HTML, CSS, JavaScript, LN4 </li>
+            <li> Databases: MySql, PL/SQL </li>
+            <li> Tools: npm, Git </li>
+            <li> Practices: Agile, SCRUM, Trello </li>
+        </ul>
+    </div>
+    </section>
+</div>
+
+    <footer></footer>
+
+    <script src="src/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,86 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: -webkit-linear-gradient(left, #766DFF, #88F3FF);
+}
+
+section[id]{
+    scroll-margin-top: 100px;
+}
+
+header.abajo{
+    background: #000;
+}
+
+.presentation{
+    color: black;
+    background: rgb(255, 206, 255);
+}
+
+/* .download{
+    background: red;
+} */
+.work_experience{
+    background: rgb(255, 206, 255);
+    color: #000;
+}
+
+.education{
+    background: rgb(255, 206, 255);
+    color: #000;
+}
+
+.technologies{
+    background: rgb(255, 206, 255);
+    color: #000;
+}
+
+.photo{
+    display: flex;
+    max-height: 80vh;
+}
+
+.photo img{
+    max-height: 70vh;
+}
+
+.aboutme{ 
+    text-align: justify;
+    vertical-align: middle;
+    align-self: center;
+    max-width: 500px;
+}
+
+.data{
+    display: inline;
+}
+
+ul.basic_info li{
+    list-style-type: none;
+}
+
+.cont_work_exp{
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cont_portfolio{
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cont_tech{ 
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+.cont_resume{ 
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+} 

@@ -14,24 +14,9 @@ header.abajo{
     background: #000;
 }
 
-.presentation{
-    color: black;
-    background: rgb(255, 206, 255);
-}
-
-/* .download{
-    background: red;
-} */
-.work_experience{
-    background: rgb(255, 206, 255);
-    color: #000;
-}
-
-.education{
-    background: rgb(255, 206, 255);
-    color: #000;
-}
-
+.presentation,
+.work_experience,
+.education,
 .technologies{
     background: rgb(255, 206, 255);
     color: #000;
@@ -61,26 +46,14 @@ ul.basic_info li{
     list-style-type: none;
 }
 
-.cont_work_exp{
+.cont_work_exp,
+.cont_portfolio,
+.cont_tech,
+.cont_resume,
+.cont_language,
+.cont_education
+{ 
     max-width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.cont_portfolio{
-    max-width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.cont_tech{ 
-    max-width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-} 
-
-.cont_resume{ 
-    max-width: 500px;
     margin-left: auto;
     margin-right: auto;
 } 
